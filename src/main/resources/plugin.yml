@@ -1,0 +1,10 @@
+name: MiniGolf
+version: '${project.version}'
+author: siea
+main: com.sieadev.minigolf.MiniGolf
+api-version: 1.20
+commands:
+  golf:
+    usage: /golf
+    description: Admin Menu
+    permissions: ["administration.gamemaker.golf","gold.admin"]

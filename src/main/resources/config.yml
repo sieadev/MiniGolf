@@ -1,0 +1,44 @@
+# Mini Golf
+# Repository: https://github.com/sieadev/MiniGolf
+# Authors: siea
+
+
+#             Contact:
+# Discord - dsc.gg/siea || @sieadev
+# Github - https://github.com/sieadev
+
+# How to use the config:
+# For colored text use ColourCodes exp: "&c" for red
+# Use %player% to pass in the Player
+# Use %hits% to pass in the hits
+# For Messages with "[]" you may pass in multiple. The outcome will be randomized
+
+prefix: "§b[Golf]"
+
+# Messages
+gameStart: "Start!"
+holeInOne: "WOAH! Hole in one!"
+holeTitle: ["Nice one!","Good Job!","Well done!"]
+holeSubTitle: ["%hits% hits!", "%hits% swings!"]
+broadcastHoleInOne: ["%player% &dscored a Hole in one!"]
+broadcastHole: ["%player% &dscored a Hole in %hits%!"]
+
+# Error Messages
+noPermisson: ["§cYou don't have the required permissions to use this command."]
+outOfBounds: ["That was too far", "Try to stay within the field"]
+wrongItem: ["Use your golf club"]
+
+# Message Settings
+countdown: true
+broadcastHoleMessage: true
+
+# Configure title
+fadeIn: 5
+stay: 30
+fadeOut: 5
+
+#Pree-Game
+startingTime: 5
+
+#Game Base Settings
+maximumHits: 6
